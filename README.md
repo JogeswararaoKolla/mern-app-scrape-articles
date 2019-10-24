@@ -59,3 +59,10 @@ Jogeswararaos-MacBook-Pro:mern-app-scrape-articles jogeswararaokolla$
 
 - git remote add origin https://github.com/JogeswararaoKolla/mern-app-scrape-articles.git
 - git push -u origin master
+
+- Backend API TESTING Results
+
+<img src="./Images/Image1.png">
+<img src="./Images/Image2.png">
+<img src="./Images/Image3.png">
+<img src="./Images/Image4.png">
