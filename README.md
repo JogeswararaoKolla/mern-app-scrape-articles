@@ -48,9 +48,14 @@ Jogeswararaos-MacBook-Pro:mern-app-scrape-articles jogeswararaokolla$
 
 * add the Remote the project in git
 
-- Jogeswararaos-MacBook-Pro:mern-app-scrape-articles jogeswararaokolla$ git remote -v 
-Jogeswararaos-MacBook-Pro:mern-app-scrape-articles jogeswararaokolla$ git remote add origin https://github.com/JogeswararaoKolla/mern-app-scrape-articles.git
-  Jogeswararaos-MacBook-Pro:mern-app-scrape-articles jogeswararaokolla$ git remote -v 
-origin	https://github.com/JogeswararaoKolla/mern-app-scrape-articles.git (fetch)
-origin	https://github.com/JogeswararaoKolla/mern-app-scrape-articles.git (push)
-Jogeswararaos-MacBook-Pro:mern-app-scrape-articles jogeswararaokolla$
+- Jogeswararaos-MacBook-Pro:mern-app-scrape-articles jogeswararaokolla\$ git remote -v
+- Jogeswararaos-MacBook-Pro:mern-app-scrape-articles jogeswararaokolla\$ git remote add origin https://github.com/JogeswararaoKolla/mern-app-scrape-articles.git
+- Jogeswararaos-MacBook-Pro:mern-app-scrape-articles jogeswararaokolla\$ git remote -v
+  origin https://github.com/JogeswararaoKolla/mern-app-scrape-articles.git (fetch)
+  origin https://github.com/JogeswararaoKolla/mern-app-scrape-articles.git (push)
+- Jogeswararaos-MacBook-Pro:mern-app-scrape-articles jogeswararaokolla\$
+
+* push an existing repository from the command line
+
+- git remote add origin https://github.com/JogeswararaoKolla/mern-app-scrape-articles.git
+- git push -u origin master

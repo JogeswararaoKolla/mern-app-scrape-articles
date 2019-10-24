@@ -1,7 +1,12 @@
 import React from "react";
+import ScrapeNews from "./components/ScrapeNews.js";
 
 function App() {
-  return <div>Welcome to Scrape News Articles</div>;
+  return (
+    <div>
+      <ScrapeNews />
+    </div>
+  );
 }
 
 export default App;

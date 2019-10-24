@@ -1,7 +1,9 @@
 const express = require("express");
 const app = express();
-require("dotenv").config();
 const mongoose = require("mongoose");
+const routes = require("./routes/index.js");
+
+require("dotenv").config();
 
 const PORT = process.env.PORT || 3001;
 
@@ -16,9 +18,17 @@ if (process.env.NODE_ENV === "production") {
 
 // Connect to the Mongo DB
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/ScrapeArticles"
+  process.env.MONGODB_URI || "mongodb://localhost/mongoNews",
+  function(err) {
+    if (err) {
+      console.log(err);
+    } else {
+      console.log("mongoose connection is successful");
+    }
+  }
 );
 
+app.use(routes);
 app.get("/", function(req, res) {
   res.send("Welcome to Scraping News");
 });
